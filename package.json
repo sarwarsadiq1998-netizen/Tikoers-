@@ -1,0 +1,16 @@
+{
+  "name": "tiktok-game-platform",
+  "version": "3.0.0",
+  "description": "Multi-streamer TikTok game with gift subscriptions (no database)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "tiktok-live-connector": "^1.0.5",
+    "dotenv": "^16.1.4",
+    "express-session": "^1.17.3"
+  }
+}
